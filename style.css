@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #ffffff;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+
+}
+
+div .box {
+    display: flex;
+    justify-content: center;
+
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 100px;
+}
+
+
+/* Mission */
+.mission {
+    background-image: url("images/advert1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.mission h2 {
+    width: 300px;
+    font-size: 32px;
+    color: white;
+    font-family: "Bebas Neue", cursive;
+    justify-content: center;
+    align-content: center;
+}
+
+.mission p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+/* Portfolio */
+.portfolio h2 {
+    background-color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    font-family: "Bebas Neue", cursive;
+}
+.subcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    flex-basis: 200px;
+}
+
+.portfolio ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.subcontainer img {
+    max-height: 500px;
+    height: auto;
+}
+
+figcaption {
+    color: black;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+/* Team */
+
+.team {
+    background-image: url("images/advert2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 1400px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.9;
+}
+
+.team1 h2 {
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    color: black;
+    font-family: "Bebas Neue", cursive;
+}
+
+.team li {
+    list-style: none;
+}
+
+.team li img {
+    height: 400px;
+    width: auto;
+    padding: 0 50px;
+}
+
+.team figcaption {
+    margin: 0px 50px;
+    text-align: start;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: auto;
+}
+
+.contact {
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
